@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/Nunito-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-style: normal;
+  color: #1e1e1e;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 60px;
+  border: 3px solid #000;
+  border-radius: 2px;
+}
+hr {
+  width: 70%;
+  margin-left: 0px;
+  border: 1.5px solid #000000;
+  border-radius: 2px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.role,
+.section-title {
+  color: #2f9e44;
+}
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+.education a,
+.experience a {
+  color: #1971c2;
+}
+ul {
+  padding-left: 20px;
+}
+p {
+  margin: 5px 0;
+}
